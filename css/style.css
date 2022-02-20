@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+/*TITTLE*/
+
+/*HEADER*/
+.header{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/*NAV*/
+.Nav{
+    height: 5vh;
+    background-color: silver;
+    position: sticky;
+    top: 0%;
+}
+
+.nav__links{
+    font-weight: 700;
+    border-bottom: 3.5px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav__items{
+    display: inline-block; 
+}
+
+.nav__links--active{
+    color:blue
+}
+
+.nav__links--active2{
+    color:blue
+}
+
+
+.nav__links--active3{
+    color: white;
+}
+
+.nav__links--active4{
+    color: red;
+}
+
+/*.nav__links--active5{
+    color: red;
+}*/
+
+.nav__links--active6{
+    color: red;
+}
+
+/*BODY*/
+body{
+    height: 70vh;
+    width: auto;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+}
+/*MAIN*/
+.main__titulo--active{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 80px;
+    text-decoration-line: underline; 
+    text-transform: uppercase;   
+}
+
+.main2__titulo--all{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 70px;
+    text-decoration-line: underline; 
+    text-transform: uppercase; 
+}
+
+/*/////////GRID///////////////////*/
+/*SHOES*/
+.gridshoes{
+    height: 100%;
+   width: 70%;
+    display: grid;
+    grid-template-areas:"zapa-1 zapa-2" 
+    "zapa-3 zapa-4" 
+    "zapa-5 zapa-6"
+    "zapa-7 zapa-8";
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 1fr 1fr ; 
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;     
+}
+.gridshoes__zapa{
+    border: 5px solid khaki;
+    border-radius: 5px;
+}
+
+.gridshoes__zapa--1{grid-area: "zapa-1";}
+.gridshoes__zapa--2{grid-area: "zapa-2";}
+.gridshoes__zapa--3{grid-area: "zapa-3";}
+.gridshoes__zapa--4{grid-area: "zapa-4";}
+.gridshoes__zapa--5{grid-area: "zapa-5";}
+.gridshoes__zapa--6{grid-area: "zapa-6";}
+.gridshoes__zapa--7{grid-area: "zapa-7";}
+.gridshoes__zapa--8{grid-area: "zapa-8";}
+
+/*ACC-BOLSOS-CAMISETAS*/
+.grid-accesorios{
+    height: 100%;
+    width: 70%;
+    display: grid;
+    grid-template-areas:
+    " b-1 b-2 b-3 "
+    "b-4 b-5 b-6"    
+    " r-7 r-8 r-9" 
+    "r-10 r-11 r-12" 
+    "g-13 g-14 g-15"
+    "g-16 g-17 g-18 "
+    "m-19 m-20 m-21 "    
+    "m-22 m-23 m-24";
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows:  repeat(8, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+    margin: 0 auto;         
+}
+
+.grid__acc{
+    border: 5px solid khaki;
+    border-radius: 5px;
+}
+
+/*BALLS*/
+.grid__acc--1{grid-area: "b-1";}
+.grid__acc--2{grid-area: "b-2";}
+.grid__acc--3{grid-area: "b-3";}
+.grid__acc--4{grid-area: "b-4";}
+.grid__acc--5{grid-area: "b-5";}
+.grid__acc--6{grid-area: "b-6";}
+
+ 
+/*T-SHIRTS*/
+.grid__acc--8{grid-area: "r-7";}
+.grid__acc--9{grid-area: "r-8";}
+.grid__acc--10{grid-area: "r-9";}
+.grid__acc--11{grid-area: "r-10";}
+.grid__acc--12{grid-area: "r-11";}
+.grid__acc--13{grid-area: "r-12";}
+
+
+/*GORRAS*/
+.grid__acc--16{grid-area:  "g-13";}
+.grid__acc--17{ grid-area: "g-14";}
+.grid__acc--18{grid-area:  "g-15";}
+.grid__acc--19{grid-area:  "g-16";}
+.grid__acc--21{grid-area:  "g-17";}
+.grid__acc--21{grid-area:  "g-18";}
+
+/*BOLSOS*/
+.grid__acc--22{grid-area:  "m-19";}
+.grid__acc--23{grid-area:  "m-20";}
+.grid__acc--24{grid-area:  "m-21";}
+.grid__acc--25{grid-area:  "m-22";}
+.grid__acc--26{grid-area:  "m-23";}
+.grid__acc--27{grid-area:  "m-24";}
+
+
+/*CONTACTOS*/
+
+.grid_contact{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 32px;
+    width: 100%;
+    height: 70vh;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+.h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.p{
+    height:auto;
+    width: 100%;
+    align-items: center;
+    font-size: 25px; 
+    border: 1px solid aqua;
+    margin: 10px 10px 20px 10px;   
+}
+
+
+.img{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 10PX;
+}
+.gridresponsive__foto{border: 3px solid azure;
+}
+
+
+/*IFRAME*/ /*FLEXBOX Y GRID*/
+.kb8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;    
+ }
+ .ajuste-video{
+     display: grid;
+     justify-content: center;
+     align-content: center;
+     width: 70%;
+
+ }
+
+ .frase {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+     font-size: 25px;
+     font-weight: 200;
+ }
+ .p2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+     font-size: 25px;
+     font-weight: 200;
+
+ }
+ 
+/*UBICACION*/ 
+.grid-loc{
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+    width: 100%;
+    text-align: center;
+    font-size: 40px;   
+}
+
+.horarios{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+/*FOOTER*/ /*FLEXBOX*/
+
+.footer{  
+   height: 10vh;
+   width: 100%;
+    font-family: cursive;
+   background-color: silver; 
+    color :sienna;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer__copyrigth{     
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+    width: 100%;  
+}
+.footer__piedepag{
+    height: 60%;
+    border-radius: 50%;
+    margin-left: 90%;
+   
+ }
+
+ /*MEDIA QUERIES*/
+
+
+/*NOTEBOOKS*/
+ @media screen and (max-width: 979px){
+    .responsive {
+        font-weight: 700;        
+    }
+        /*INDEX*/
+    .p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+    }
+    .frase{
+        font-size: 25px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        font-size: 25px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+    /* SHOES-ACC-CONTACT-LOCATION*/
+    .main2__titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+
+/*TABLET*/
+
+ @media screen and (max-width: 767px){
+   
+    .responsive{
+        font-family: cursive;
+        font-weight: 200;   
+    }
+
+/*PAGE SHOES*/
+    .gridshoes{
+        display: grid;
+        grid-template-areas:"zapa-1"
+         "zapa-2" 
+        "zapa-3" 
+        "zapa-4" 
+        "zapa-5" 
+        "zapa-6"
+        "zapa-7" 
+        "zapa-8";
+        grid-template-columns: 1fr ;  
+        width: 100%;     
+    }
+    /*PAGE ACCESORIOS*/
+
+    .grid-accesorios{
+        display: grid;
+        grid-template-areas:
+        "b-1 b-2"
+        "b-3 b-4" 
+        "b-5 b-6"    
+        "r-7 r-8" 
+        "r-9 r-10" 
+        "r-11 r-12" 
+        "g-13 g-14"
+        "g-15 g-16"
+        "g-17 g-18 "
+        "m-19 m-20" 
+        "m-21 m-22"
+        "m-23 m-24";
+        grid-template-rows:  repeat(12, 2fr);
+       justify-content: center;        
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+   .main2__titulo--all{font-size: 50px;}
+    
+    .main__titulo {font-size: 50px;}
+
+    .h2{font-size: 40px;}
+
+    .header{
+        height: 50%;
+        width: auto;
+    }
+    .nav__links{
+        font-size: 20px;
+        height: 100%;
+        font-weight: 200; 
+    }
+
+    .p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: 2px solid steelblue;
+    }
+    .frase{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    /*UBICACION*/
+    .grid-loc{
+        display: grid;
+        justify-content: center;
+        align-content: center; 
+        width: 100%;
+        text-align: center;
+        font-size: 20px;   
+    }
+    
+    .horarios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .grid_contact{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        font-size: 32px;
+        width: auto;
+        height: 70vh;
+        justify-content: center;
+    }
+    
+    .input{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .input__txtarea{
+        width: 100%;
+    
+    }
+ 
+ }
+
+ 
+/*MOBILE*/
+
+ @media screen and (max-width: 480px){
+    .responsive{
+        font-family: cursive;
+        font-weight: 200;
+    }
+
+    .main__titulo { font-size: 35px; }
+
+    .main2__titulo--all{ font-size: 30px; }
+    
+
+    .h2{font-size: 30px;}
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 30%;
+        width: auto;
+    }
+    .nav__links{
+        font-size: 18px;
+        height: 100%;
+        font-weight: 200; 
+    }
+    .p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: 3px solid red;
+    }
+    .frase{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .gridshoes{
+        display: grid;
+        grid-template-areas:"zapa-1"
+         "zapa-2" 
+        "zapa-3" 
+        "zapa-4" 
+        "zapa-5" 
+        "zapa-6"
+        "zapa-7" 
+        "zapa-8";
+        grid-template-columns: 1fr ;  
+        width: 100%;     
+    }
+    .grid-accesorios{
+        display: grid;      
+        justify-content: center;
+        align-items: center;       
+        display: flex;
+        flex-wrap: wrap; 
+   }
+
+   .grid_contact{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 32px;
+    width: auto;
+    height: 70vh;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.input__txtarea{
+    width: 100%;
+
+}
+ }
+
+
+
