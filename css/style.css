@@ -14,20 +14,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
-    
-    
+    margin-bottom: 30px; 
 }
 /*NAV*/
 .Nav{
     height: 10vh;
-    background-image: linear-gradient(to right,rgb(0, 0, 0), grey);
+    background-image: linear-gradient(to right, black, grey);
     position: sticky;
 }
 
 .nav__links{
-    font-size: 40px;
-    font-weight: 600;
+    font-weight: 500;
     border-bottom: 3.5px;
     font-size: 24px;
     display: flex;
@@ -71,7 +68,7 @@ body{
     height: 70vh;
     width: auto;
     font-family: 'Shadows Into Light', cursive;
-    background-image: linear-gradient(to right,rgb(0, 0, 0), grey);
+    background-image: linear-gradient(to right, black, grey);
     color: white;
     line-height: 1.5;
 }
@@ -191,17 +188,14 @@ body{
 /*CONTACTOS*/
 .contacto{
     height: 70vh;
-    width: auto;
-    margin-top: 100px;
-    font-size: 48px;
+    font-size: 40px;
+    margin-top: 70px;
+}
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
-.form-control{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.btn{
-    font-size: 30px;
-}
 
 .h2{
     text-align: center;
@@ -216,17 +210,16 @@ body{
     border: 1px solid aqua;
     margin: 10px 10px 20px 10px;   
 }
+.btn{ font-size: 25px;}
 
+.img{
+    display: flex; 
+    justify-content: center;  
+    align-content: center;}
 
-.img{    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    column-gap: 10PX;
-}
-.foto{border: 3px solid azure;
-}
+.foto{
+    border: 4px solid azure;}
+
 
 
 /*IFRAME*/ /*FLEXBOX Y GRID*/
@@ -252,13 +245,12 @@ body{
     height: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 10px;
      font-size: 25px;
      font-weight: 200;
  }
  .p2{
     display: flex;
-    margin: 0 auto;
     justify-content: center;
     align-items: center;
      font-size: 25px;
@@ -287,29 +279,25 @@ body{
 
 /*FOOTER*/ /*FLEXBOX*/
 
-.footer{
-    height: 15vh;
-    width: auto;
-    background-image: linear-gradient(to right,rgb(0, 0, 0), grey);
+.footer{  
+   height: 10vh;   
     font-family: cursive;
-    color:white;
-   font-size: 20px;
-   font-weight: 500;
-   
+    background-image: linear-gradient(to right, black, grey);
+    color : white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
 }
 
-.p-footer{
-   font-size: 20px;
-   display: flex;
-   align-items:center;
-   justify-content: center;
-   margin-top: 30px; 
-}
+.p-footer {
+    display: flex;
+    justify-content: center;
+    }
 .img-f{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    }
+
 
  /*MEDIA QUERIES*/
 
