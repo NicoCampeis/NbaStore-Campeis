@@ -16,6 +16,10 @@
     align-items: center;
     margin-bottom: 30px; 
 }
+.header:hover{
+    transition: all 4s ease-in;
+    transform: scale(1.5,1);
+}
 /*NAV*/
 .Nav{
     height: 10vh;
@@ -31,11 +35,16 @@
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;   
 }
 
+.nav__links:hover{
+    transition: font-size 2s ease-in-out;
+    font-size:  50px;
+}
 .nav__items{
     display: inline-block; 
+    
 }
 
 .nav__links--active{
@@ -91,11 +100,14 @@ body{
     text-transform: uppercase; 
 }
 
+
+
 /*/////////GRID///////////////////*/
 /*SHOES*/
+
 .gridshoes{
     height: 100%;
-   width: 70%;
+    width: 70%;
     display: grid;
     grid-template-areas:"zapa-1 zapa-2" 
     "zapa-3 zapa-4" 
@@ -107,11 +119,17 @@ body{
     row-gap: 10px;
     justify-items: center;
     align-items: center;
-    margin: 0 auto;     
+    margin: 0 auto;
+}
+
+.scale:hover{
+    transform: scale(1.5,1.5);
+    transition: all 2s;
 }
 .gridshoes__zapa{
     border: 5px solid khaki;
     border-radius: 5px;
+    box-shadow: 10px 10px 15px whitesmoke;
 }
 
 .gridshoes__zapa--1{grid-area: "zapa-1";}
@@ -236,7 +254,7 @@ body{
      display: grid;
      justify-content: center;
      align-content: center;
-     width: 70%;
+     width: 50%;
 
  }
 
@@ -299,13 +317,15 @@ body{
     }
 
 
+    
  /*MEDIA QUERIES*/
 
 
 /*NOTEBOOKS*/
  @media screen and (max-width: 979px){
-    .responsive {
-        font-weight: 700;        
+    .responsive{
+        font-weight: 700;  
+            
     }
         /*INDEX*/
     .p{
@@ -342,7 +362,7 @@ body{
    
     .responsive{
         font-family: cursive;
-        font-weight: 200;   
+        font-weight: 200;  
     }
 
 /*PAGE SHOES*/
@@ -463,6 +483,7 @@ body{
         font-family: cursive;
         font-weight: 200;
     }
+    
 
     .main__titulo { font-size: 35px; }
 
@@ -490,6 +511,7 @@ body{
         font-size: 15px;
         border: 3px solid red;
     }
+ 
     .frase{
         font-size: 20px;
         display: flex;
