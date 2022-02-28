@@ -1,0 +1,16 @@
+.grid-loc{
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+    width: 100%;
+    text-align: center;
+    font-size: 40px;  
+    .horarios{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        text-decoration: underline;
+    } 
+}
+

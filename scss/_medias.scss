@@ -1,0 +1,240 @@
+/*NOTEBOOKS*/
+@media screen and (max-width: 979px){
+    .responsive{
+        font-weight: 700;  
+    }
+        /*INDEX*/
+    .p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: $red-px;
+    }
+    .frase{
+        font-size: 25px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        font-size: 25px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+    /* SHOES-ACC-CONTACT-LOCATION*/
+    .main2__titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+/*TABLET*/
+
+@media screen and (max-width: 767px){
+    .responsive{
+        font-family: $cursiva;
+        font-weight: 200;  
+    }
+
+/*PAGE SHOES*/
+    .gridshoes{
+        display: grid;
+        grid-template-areas:"zapa-1"
+        "zapa-2" 
+        "zapa-3" 
+        "zapa-4" 
+        "zapa-5" 
+        "zapa-6"
+        "zapa-7" 
+        "zapa-8";
+        grid-template-columns: 1fr ;  
+        width: 100%;     
+    }
+
+    /*PAGE ACCESORIOS*/
+    .grid-accesorios{
+        display: grid;
+        grid-template-areas:
+        "b-1 b-2"
+        "b-3 b-4" 
+        "b-5 b-6"    
+        "r-7 r-8" 
+        "r-9 r-10" 
+        "r-11 r-12" 
+        "g-13 g-14"
+        "g-15 g-16"
+        "g-17 g-18 "
+        "m-19 m-20" 
+        "m-21 m-22"
+        "m-23 m-24";
+        grid-template-rows:  repeat(12, 2fr);
+        justify-content: center;        
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .main2__titulo--all{font-size: 50px;}
+
+    .main__titulo {font-size: 50px;}
+
+    .h2{font-size: 40px;}
+
+    .header{
+        height: 50%;
+        width: auto;
+    }
+    .nav__links{
+        font-size: 20px;
+        height: 100%;
+        font-weight: 200; 
+    }
+
+    .p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: $azul;
+    }
+    .frase{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*UBICACION*/
+    .grid-loc{
+        display: grid;
+        justify-content: center;
+        align-content: center; 
+        width: 100%;
+        text-align: center;
+        font-size: 20px;   
+    }
+    
+    .horarios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .grid_contact{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        font-size: 32px;
+        width: auto;
+        height: 70vh;
+        justify-content: center;
+    }
+    
+    .input{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .input__txtarea{
+        width: 100%;
+    
+    }
+}
+
+
+/*MOBILE*/
+
+@media screen and (max-width: 480px){
+    .responsive{
+        font-family: $cursiva;
+        font-weight: 200;
+    }
+    
+
+    .main__titulo { font-size: 35px; }
+
+    .main2__titulo--all{ font-size: 30px; }
+    
+
+    .h2{font-size: 30px;}
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 30%;
+        width: auto;
+    }
+    .nav__links{
+        font-size: 18px;
+        height: 100%;
+        font-weight: 200; 
+    }
+    .p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: $red-px;
+    }
+
+    .frase{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .gridshoes{
+        display: grid;
+        grid-template-areas:"zapa-1"
+        "zapa-2" 
+        "zapa-3" 
+        "zapa-4" 
+        "zapa-5" 
+        "zapa-6"
+        "zapa-7" 
+        "zapa-8";
+        grid-template-columns: 1fr ;  
+        width: 100%;     
+    }
+    .grid-accesorios{
+        display: grid;      
+        justify-content: center;
+        align-items: center;       
+        display: flex;
+        flex-wrap: wrap; 
+}
+
+.grid_contact{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 32px;
+    width: auto;
+    height: 70vh;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.input__txtarea{
+    width: 100%;
+
+}
+}

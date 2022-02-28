@@ -1,0 +1,38 @@
+.Nav {
+    height: 10vh;
+    background-image: $gradiente;
+    position: sticky;
+    .nav__links {
+        font-weight: 500;
+        border-bottom: 3.5px;
+        font-size: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        text-decoration: none;
+        &:hover {
+            transition: font-size 2s ease-in-out;
+            font-size: 50px; }
+            
+}
+.nav__items {
+    display: inline-block;
+    .nav__links--active {
+        color: $blue }
+    .nav__links--active2 {
+        color: $blue; }
+    
+    .nav__links--active3 {
+        color: $white; }
+    
+    .nav__links--active4 {
+        color: $red; }
+    
+    /*.nav__links--active5{
+    color: red;
+    }*/
+    .nav__links--active6 {
+        color: $red; }
+    }
+}

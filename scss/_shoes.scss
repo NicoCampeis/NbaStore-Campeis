@@ -1,0 +1,35 @@
+.gridshoes{
+    height: 100%;
+    width: 70%;
+    display: grid;
+    grid-template-areas:"zapa-1 zapa-2" 
+    "zapa-3 zapa-4" 
+    "zapa-5 zapa-6"
+    "zapa-7 zapa-8";
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 1fr 1fr ; 
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    .gridshoes__zapa{
+        border: $bordes;
+        border-radius: 5px;
+        box-shadow: $sombra;        
+        .gridshoes__zapa--1{grid-area: "zapa-1";}
+        .gridshoes__zapa--2{grid-area: "zapa-2";}
+        .gridshoes__zapa--3{grid-area: "zapa-3";}
+        .gridshoes__zapa--4{grid-area: "zapa-4";}
+        .gridshoes__zapa--5{grid-area: "zapa-5";}
+        .gridshoes__zapa--6{grid-area: "zapa-6";}
+        .gridshoes__zapa--7{grid-area: "zapa-7";}
+        .gridshoes__zapa--8{grid-area: "zapa-8";}
+    }
+}
+.scale:hover{
+    transform: scale(1.5,1.5);
+    transition: all 2s;
+    }
+
+

@@ -1,0 +1,61 @@
+.grid-accesorios{
+    height: 100%;
+    width: 70%;
+    display: grid;
+    grid-template-areas:
+    " b-1 b-2 b-3 "
+    "b-4 b-5 b-6"    
+    " r-7 r-8 r-9" 
+    "r-10 r-11 r-12" 
+    "g-13 g-14 g-15"
+    "g-16 g-17 g-18 "
+    "m-19 m-20 m-21 "    
+    "m-22 m-23 m-24";
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows:  repeat(8, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+    margin: 0 auto;      
+
+    .grid__acc{
+        border: $bordes;
+        border-radius: 5px;
+            /*BALLS*/
+        .grid__acc--1{grid-area: "b-1";}
+        .grid__acc--2{grid-area: "b-2";}
+        .grid__acc--3{grid-area: "b-3";}
+        .grid__acc--4{grid-area: "b-4";}
+        .grid__acc--5{grid-area: "b-5";}
+        .grid__acc--6{grid-area: "b-6";}
+
+            /*T-SHIRTS*/
+    .grid__acc--8{grid-area: "r-7";}
+    .grid__acc--9{grid-area: "r-8";}
+    .grid__acc--10{grid-area: "r-9";}
+    .grid__acc--11{grid-area: "r-10";}
+    .grid__acc--12{grid-area: "r-11";}
+    .grid__acc--13{grid-area: "r-12";}
+
+
+            /*GORRAS*/
+    .grid__acc--16{grid-area:  "g-13";}
+    .grid__acc--17{ grid-area: "g-14";}
+    .grid__acc--18{grid-area:  "g-15";}
+    .grid__acc--19{grid-area:  "g-16";}
+    .grid__acc--21{grid-area:  "g-17";}
+    .grid__acc--21{grid-area:  "g-18";}
+
+            /*BOLSOS*/
+    .grid__acc--22{grid-area:  "m-19";}
+    .grid__acc--23{grid-area:  "m-20";}
+    .grid__acc--24{grid-area:  "m-21";}
+    .grid__acc--25{grid-area:  "m-22";}
+    .grid__acc--26{grid-area:  "m-23";}
+    .grid__acc--27{grid-area:  "m-24";}
+    }   
+        }
+
+
+
+
