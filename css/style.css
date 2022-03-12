@@ -18,7 +18,7 @@
 body {
   height: 70vh;
   width: auto;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light";
   background-image: linear-gradient(to right, black, grey);
   color: white;
   line-height: 1.5; }
@@ -30,13 +30,43 @@ body {
   color: white;
   font-size: 20px;
   font-weight: 500;
-  margin-top: 30px; }
+  margin-top: 30px;
+  overflow: hidden; }
   .footer .p-footer {
     display: flex;
     justify-content: center; }
-  .footer .img-f {
+  .footer .redes {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    list-style: none;
+    transition: all 0.5s ease; }
+    .footer .redes .facebook:hover {
+      transform: scale(1.2); }
+    .footer .redes .whatsapp:hover {
+      transform: scale(1.2); }
+    .footer .redes .instagram:hover {
+      transform: scale(1.2); }
+
+.iconos, .whatsapp, .instagram, .facebook {
+  background-color: #741313;
+  font-size: 2rem;
+  border: 2px solid wheat; }
+
+.whatsapp:hover {
+  transform: scale(1.2);
+  background-color: #008000; }
+
+.instagram:hover {
+  transform: scale(1.2);
+  background-color: #c76306; }
+
+.facebook:hover {
+  transform: scale(1.2);
+  background-color: #5a88bd; }
+
+.frase {
+  color: #b2c55d;
+  font-style: italic; }
 
 .Nav {
   height: 10vh;
@@ -52,7 +82,7 @@ body {
     list-style: none;
     text-decoration: none; }
     .Nav .nav__links:hover {
-      transition: font-size 2s ease-in-out;
+      transition: 2s ease-in-out;
       font-size: 50px; }
   .Nav .nav__items {
     display: inline-block;
@@ -296,6 +326,9 @@ body {
     grid-template-areas: "zapa-1" "zapa-2"  "zapa-3"  "zapa-4"  "zapa-5"  "zapa-6" "zapa-7"  "zapa-8";
     grid-template-columns: 1fr;
     width: 100%; }
+  .scale:hover {
+    transform: scale(0.5, 1);
+    transition: all 3s; }
   /*PAGE ACCESORIOS*/
   .grid-accesorios {
     display: grid;
@@ -401,6 +434,9 @@ body {
     grid-template-areas: "zapa-1" "zapa-2"  "zapa-3"  "zapa-4"  "zapa-5"  "zapa-6" "zapa-7"  "zapa-8";
     grid-template-columns: 1fr;
     width: 100%; }
+  .scale:hover {
+    transform: scale(1, 1);
+    transition: all 2s; }
   .grid-accesorios {
     display: grid;
     justify-content: center;

@@ -21,8 +21,7 @@ body {
     font-family: $tipografia;
     background-image: $gradiente;
     color: $white;
-    line-height: 1.5;
-}
+    line-height: 1.5;}
 
     .footer{  
         height: 10vh;   
@@ -32,16 +31,67 @@ body {
         font-size: 20px;
         font-weight: 500;
         margin-top: 30px;
+        overflow: hidden;
         .p-footer {
             display: flex;
             justify-content: center;
             }
-            .img-f{
+            .redes{
                 display: flex;
-                justify-content: center;
+                justify-content: center;                
+                list-style: none;
+                transition: all 0.5s ease;
+                .facebook{
+                    &:hover {
+                        transform: scale(1.2);
+                    }}
+                .whatsapp{
+                    &:hover {
+                        transform: scale(1.2);
+                    }}
+                .instagram{
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
+            }
     }
+//extend
+.iconos{
+    background-color: rgb(116, 19, 19);
+    font-size: 2rem;
+    border: 2px solid wheat;
+}
+
+// Maps
+
+    $sociales:(
+        whatsapp: #008000,
+        instagram: #c76306,
+        facebook: #5a88bd,   
+    );
+
+@each $redes, $color in $sociales {
+    .#{$redes}{
+                &:hover {
+                transform: scale(1.2);
+                background-color: $color;
+            }
+            @extend .iconos
+            
+        }
+};
+
+
+
+//mixin
+@mixin letra () {
+    color: rgb(178, 197, 93);
+    font-style: italic;
     
-    
-    
-    
+}
+
+.frase{
+    @include letra()
+}
+
