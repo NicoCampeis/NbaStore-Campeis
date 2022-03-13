@@ -1,5 +1,6 @@
 En todas las paginas de Nba-store podemos encontrar distintos metaetiquetas, las cuales las dejo especificadas aca en la hoja txt.
 
+
 Index--->
 
 <meta name="Descrition" content="Somo una empresa marplatense y nos dedicamos a la comercializacion de indumentaria deportiva de basquet importada directamente de eeuu.">
