@@ -1,0 +1,41 @@
+En todas las paginas de Nba-store podemos encontrar distintos metaetiquetas, las cuales las dejo especificadas aca en la hoja txt.
+
+Index--->
+
+<meta name="Descrition" content="Somo una empresa marplatense y nos dedicamos a la comercializacion de indumentaria deportiva de basquet importada directamente de eeuu.">
+
+<meta name="Keywords" content="contenido, referencia, autor, motivacion, redes sociales, video, mamba, kobe braynt, basket.">
+
+<meta name="Autor" content="Nicolas Campeis">
+
+Accesorios--->
+
+<meta name="description" content="Encontra la mayor variedad en accesorios en indumentaria deportiva nacional e internacional">
+
+<meta name="keywords" content="Nba, basketball, import, nacional, balls, clothing, backpacks, caps. ">
+
+<meta name="Autor" content="Nicolas Campeis">
+
+Contact --->
+
+<meta name="description" content="Contactate con nosotros para dudas, consultas y ofertas.">
+
+<meta name="keywords" content="Contacto, Ayuda, Informacion.">
+
+<meta name="Autor" content="Nicolas Campeis">
+
+Location --->
+
+<meta name="Description" content="Podras encontrar nuestra ubicacion y horarios para darte un gustito a la hora de disfrutar el deporte">
+
+<meta name="Keywords" content="Ubicacion, horarios, dias, latinoamerica, telefono, facebook, instagram, whatsapp">
+
+<meta name="Autor" content="Nicolas Campeis">
+
+Shoes --->
+
+<meta name="Description" content="Los mejores diseños, calidad y variedad en zapatillas importadas.">
+
+<meta name="Keywords" content="Nba, shoes, zapatilla, adidas, nike, jordan, importado, eeuu.">
+
+<meta name="Autor" content="Nicolas Campeis">
