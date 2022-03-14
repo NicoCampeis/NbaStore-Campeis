@@ -1,15 +1,36 @@
 /*NOTEBOOKS*/
-@media screen and (max-width: 979px){
+@media screen and (max-width: 992px){
     .responsive{
-        font-weight: 700;  
+
+        font-weight: 500;  
     }
         /*INDEX*/
     .p{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 10px;
+        line-height: 2;
         border: $red-px;
     }
+
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foto{
+        height: 30vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .ajuste-video{
+        width: 50%;
+        height: 75;
+    }
+
     .frase{
         font-size: 25px;
         font-weight: 700;
@@ -34,7 +55,7 @@
 
 /*TABLET*/
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .responsive{
         font-family: $cursiva;
         font-weight: 200;  
@@ -104,6 +125,24 @@
         font-size: 15px;
         border: $azul;
     }
+
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foto{
+        height: 40%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .ajuste-video{
+        width: 50%;
+        height: 75;
+    }
+    
     .frase{
         font-size: 20px;
         display: flex;
