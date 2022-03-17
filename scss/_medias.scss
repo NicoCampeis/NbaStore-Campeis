@@ -205,6 +205,10 @@
         font-family: $cursiva;
         font-weight: 100;
     }
+    .logo{
+        display: none;
+    }
+
     
 
     .main__titulo { font-size: 35px; }
@@ -221,7 +225,7 @@
         height: 30%;
         width: auto;
     }
-   
+
     .p{
         display: flex;
         justify-content: center;
@@ -230,11 +234,9 @@
         border: $red-px;
     }
 
-
-
 .ajuste-video{
-width: auto;
-height: auto;
+width: 100%;
+height: 50%;
 }
     .frase{
         font-size: 20px;

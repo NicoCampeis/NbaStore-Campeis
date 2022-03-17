@@ -424,6 +424,8 @@ body {
   .responsive {
     font-family: cursive;
     font-weight: 100; }
+  .logo {
+    display: none; }
   .main__titulo {
     font-size: 35px; }
   .main2__titulo--all {
@@ -443,8 +445,8 @@ body {
     font-size: 15px;
     border: 3px solid red; }
   .ajuste-video {
-    width: auto;
-    height: auto; }
+    width: 100%;
+    height: 50%; }
   .frase {
     font-size: 20px;
     display: flex;
