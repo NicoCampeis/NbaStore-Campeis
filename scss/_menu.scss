@@ -12,8 +12,10 @@
         list-style: none;
         text-decoration: none;
         &:hover {
-            transition: 2s ease-in-out;
-            font-size: 50px; }
+            transition: 1s ease-in-out;
+            font-size: 40px; 
+            font-style: oblique;
+        }
             
 }
 .nav__items {
@@ -28,10 +30,7 @@
     
     .nav__links--active4 {
         color: $red; }
-    
-    /*.nav__links--active5{
-    color: red;
-    }*/
+
     .nav__links--active6 {
         color: $red; }
     }
