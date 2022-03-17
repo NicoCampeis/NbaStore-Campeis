@@ -35,32 +35,38 @@ body {
     justify-content: center; }
   .footer .redes {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style: none;
-    transition: all 0.5s ease; }
-    .footer .redes .facebook:hover {
-      transform: scale(1.2); }
-    .footer .redes .whatsapp:hover {
-      transform: scale(1.2); }
-    .footer .redes .instagram:hover {
-      transform: scale(1.2); }
+    transition: all 3s;
+    margin-top: 10px; }
+    .footer .redes .facebook {
+      border-radius: 25px; }
+      .footer .redes .facebook:hover {
+        transform: scale(1.2); }
+    .footer .redes .whatsapp {
+      border-radius: 25px; }
+      .footer .redes .whatsapp:hover {
+        transform: scale(1.2); }
+    .footer .redes .instagram {
+      border-radius: 25px; }
+      .footer .redes .instagram:hover {
+        transform: scale(1.2); }
 
 .iconos, .whatsapp, .instagram, .facebook {
-  background-color: #741313;
-  font-size: 2rem;
-  border: 2px solid wheat; }
+  background-color: linear-gradient(to right, black, grey);
+  font-size: 2rem; }
 
 .whatsapp:hover {
   transform: scale(1.2);
-  background-color: #008000; }
+  background-color: #ffffff; }
 
 .instagram:hover {
   transform: scale(1.2);
-  background-color: #c76306; }
+  background-color: #ff0000; }
 
 .facebook:hover {
   transform: scale(1.2);
-  background-color: #5a88bd; }
+  background-color: #0004f3; }
 
 .frase {
   color: #b2c55d;

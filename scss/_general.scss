@@ -36,37 +36,48 @@ body {
             }
             .redes{
                 display: flex;
-                justify-content: center;                
+                justify-content: space-evenly;                
                 list-style: none;
-                transition: all 0.5s ease;
+                transition: all 3s ;
+                margin-top: 10px;
+                
+
+
                 .facebook{
+                    border-radius: 25px;
+
                     &:hover {
                         transform: scale(1.2);
                     }}
                 .whatsapp{
+                    border-radius: 25px;
                     &:hover {
                         transform: scale(1.2);
-                    }}
+                        
+                    }
+                }
                 .instagram{
+                    border-radius: 25px;
                     &:hover {
                         transform: scale(1.2);
+                    
                     }
                 }
             }
     }
 //extend
 .iconos{
-    background-color: rgb(116, 19, 19);
+    background-color: $gradiente;
     font-size: 2rem;
-    border: 2px solid wheat;
+    
 }
 
 // Maps
 
     $sociales:(
-        whatsapp: #008000,
-        instagram: #c76306,
-        facebook: #5a88bd,   
+        whatsapp: #ffffff,
+        instagram: #ff0000,
+        facebook: #0004f3,   
     );
 
 @each $redes, $color in $sociales {
