@@ -28,8 +28,7 @@ body {
   color: white;
   font-size: 20px;
   font-weight: 500;
-  margin-top: 30px;
-  overflow: hidden; }
+  margin-top: 30px; }
   .footer .p-footer {
     display: flex;
     justify-content: center; }
@@ -451,7 +450,7 @@ body {
     font-size: 15px;
     border: 3px solid red; }
   .ajuste-video {
-    width: 100%;
+    width: 70%;
     height: 50%; }
   .frase {
     font-size: 20px;
