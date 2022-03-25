@@ -12,7 +12,6 @@
     overflow: hidden ;
 }
 
-
 body {
     height: 70vh;
     width: 100%;
@@ -29,35 +28,29 @@ body {
         font-size: 20px;
         font-weight: 500;
         margin-top: 30px;
-        
-        .p-footer {
-            display: flex;
-            justify-content: center;
-            }
+
             .redes{
                 display: flex;
-                justify-content: space-evenly;                
+                justify-content: center;                
                 list-style: none;
-                transition: all 3s ;
-                margin-top: 10px;
+                transition: all;
+                .twitter{                    
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                    }
                 
-
-
                 .facebook{
-                    border-radius: 25px;
-
                     &:hover {
                         transform: scale(1.2);
                     }}
-                .whatsapp{
-                    border-radius: 25px;
+                .instagram{                    
                     &:hover {
                         transform: scale(1.2);
                         
                     }
                 }
-                .instagram{
-                    border-radius: 25px;
+                .Linkedin{                    
                     &:hover {
                         transform: scale(1.2);
                     
@@ -65,42 +58,3 @@ body {
                 }
             }
     }
-//extend
-.iconos{
-    background-color: $gradiente;
-    font-size: 2rem;
-    
-}
-
-// Maps
-
-    $sociales:(
-        whatsapp: #ffffff,
-        instagram: #ff0000,
-        facebook: #0004f3,   
-    );
-
-@each $redes, $color in $sociales {
-    .#{$redes}{
-                &:hover {
-                transform: scale(1.2);
-                background-color: $color;
-            }
-            @extend .iconos
-            
-        }
-};
-
-
-
-//mixin
-@mixin letra () {
-    color: rgb(178, 197, 93);
-    font-style: italic;
-    
-}
-
-.frase{
-    @include letra()
-}
-

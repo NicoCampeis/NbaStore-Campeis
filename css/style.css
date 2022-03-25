@@ -29,47 +29,19 @@ body {
   font-size: 20px;
   font-weight: 500;
   margin-top: 30px; }
-  .footer .p-footer {
-    display: flex;
-    justify-content: center; }
   .footer .redes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
-    transition: all 3s;
-    margin-top: 10px; }
-    .footer .redes .facebook {
-      border-radius: 25px; }
-      .footer .redes .facebook:hover {
-        transform: scale(1.2); }
-    .footer .redes .whatsapp {
-      border-radius: 25px; }
-      .footer .redes .whatsapp:hover {
-        transform: scale(1.2); }
-    .footer .redes .instagram {
-      border-radius: 25px; }
-      .footer .redes .instagram:hover {
-        transform: scale(1.2); }
-
-.iconos, .whatsapp, .instagram, .facebook {
-  background-color: linear-gradient(to right, black, grey);
-  font-size: 2rem; }
-
-.whatsapp:hover {
-  transform: scale(1.2);
-  background-color: #ffffff; }
-
-.instagram:hover {
-  transform: scale(1.2);
-  background-color: #ff0000; }
-
-.facebook:hover {
-  transform: scale(1.2);
-  background-color: #0004f3; }
-
-.frase {
-  color: #b2c55d;
-  font-style: italic; }
+    transition: all; }
+    .footer .redes .twitter:hover {
+      transform: scale(1.2); }
+    .footer .redes .facebook:hover {
+      transform: scale(1.2); }
+    .footer .redes .instagram:hover {
+      transform: scale(1.2); }
+    .footer .redes .Linkedin:hover {
+      transform: scale(1.2); }
 
 .Nav {
   height: 10vh;
@@ -131,16 +103,12 @@ body {
   margin: 10px 10px 20px 10px;
   overflow: visible; }
 
-.flex-img {
-  height: 40vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around; }
-  .flex-img .foto {
-    border: 1px solid azure;
-    overflow: auto; }
+.foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+  border: 2px solid azure; }
 
 .kb8 {
   display: flex;
@@ -175,7 +143,7 @@ body {
   align-items: center;
   margin: 0 auto; }
   .gridshoes .gridshoes__zapa {
-    border: 5px solid khaki;
+    border: 5px solid #b6b6b6;
     border-radius: 5px;
     box-shadow: 5px 5px 20px #f5f5f56c; }
     .gridshoes .gridshoes__zapa .gridshoes__zapa--1 {
@@ -195,10 +163,6 @@ body {
     .gridshoes .gridshoes__zapa .gridshoes__zapa--8 {
       grid-area: "zapa-8"; }
 
-.scale:hover {
-  transform: scale(1, 1.1);
-  transition: all 1s; }
-
 .grid-accesorios {
   height: 100%;
   width: 70%;
@@ -211,7 +175,8 @@ body {
   justify-items: center;
   margin: 0 auto; }
   .grid-accesorios .grid__acc {
-    border: 5px solid khaki;
+    border: 5px solid #b6b6b6;
+    box-shadow: 5px 5px 20px #f5f5f56c;
     border-radius: 5px;
     /*BALLS*/
     /*T-SHIRTS*/
