@@ -451,5 +451,4 @@ body {
   .input__txtarea {
     width: 100%; }
   .grid-loc {
-    overflow: hidden;
-    margin: 5px 15px 5px 15px; } }
+    width: auto; } }
