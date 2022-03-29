@@ -87,7 +87,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 70px;
-  text-decoration-line: underline;
   text-transform: uppercase; }
 
 .h2 {
@@ -167,7 +166,7 @@ body {
   height: 100%;
   width: 70%;
   display: grid;
-  grid-template-areas: " b-1 b-2 b-3 " "b-4 b-5 b-6"     " r-7 r-8 r-9"  "r-10 r-11 r-12"  "g-13 g-14 g-15" "g-16 g-17 g-18 " "m-19 m-20 m-21 "     "m-22 m-23 m-24";
+  grid-template-areas: " b-1 b-2 b-3 " "b-4 b-5 b-6"     " r-7 r-8 r-9"     "r-10 r-11 r-12"  "g-13 g-14 g-15" "g-16 g-17 g-18 " "m-19 m-20 m-21 "     "m-22 m-23 m-24";
   grid-template-columns: 3fr 3fr 3fr;
   grid-template-rows: repeat(8, 1fr);
   column-gap: 10px;
@@ -194,6 +193,8 @@ body {
       grid-area: "b-5"; }
     .grid-accesorios .grid__acc .grid__acc--6 {
       grid-area: "b-6"; }
+    .grid-accesorios .grid__acc .tshirt {
+      grid-area: "t-1"; }
     .grid-accesorios .grid__acc .grid__acc--8 {
       grid-area: "r-7"; }
     .grid-accesorios .grid__acc .grid__acc--9 {
@@ -206,6 +207,8 @@ body {
       grid-area: "r-11"; }
     .grid-accesorios .grid__acc .grid__acc--13 {
       grid-area: "r-12"; }
+    .grid-accesorios .grid__acc .caps {
+      grid-area: "c-1"; }
     .grid-accesorios .grid__acc .grid__acc--16 {
       grid-area: "g-13"; }
     .grid-accesorios .grid__acc .grid__acc--17 {
@@ -218,6 +221,8 @@ body {
       grid-area: "g-17"; }
     .grid-accesorios .grid__acc .grid__acc--21 {
       grid-area: "g-18"; }
+    .grid-accesorios .grid__acc .backbags {
+      grid-area: "bb-1"; }
     .grid-accesorios .grid__acc .grid__acc--22 {
       grid-area: "m-19"; }
     .grid-accesorios .grid__acc .grid__acc--23 {
@@ -268,9 +273,6 @@ body {
     padding: 10px;
     line-height: 2;
     border: 3px solid red; }
-  .img {
-    display: flex;
-    flex-wrap: wrap; }
   .foto {
     height: 30vh;
     width: auto;
@@ -312,10 +314,11 @@ body {
   .scale:hover {
     transform: none;
     transition: none; }
-  /*PAGE ACCESORIOS*/
+  /*PAGE PRODUCTOS*/
   .grid-accesorios {
     display: grid;
-    grid-template-areas: "b-1 b-2" "b-3 b-4"  "b-5 b-6"     "r-7 r-8"  "r-9 r-10"  "r-11 r-12"  "g-13 g-14" "g-15 g-16" "g-17 g-18 " "m-19 m-20"  "m-21 m-22" "m-23 m-24";
+    overflow: hidden;
+    grid-template-areas: "b-1 b-2" "b-3 b-4"  "b-5 b-6"    "t-1 t-1 "  "r-7 r-8"  "r-9 r-10"  "r-11 r-12" "c-1 c-1"   "g-13 g-14" "g-15 g-16" "g-17 g-18 " "bb-1 bb-1" "bb-1 bb-1" "m-19 m-20"  "m-21 m-22" "m-23 m-24";
     grid-template-rows: repeat(12, 2fr);
     justify-content: center;
     display: flex;
@@ -342,12 +345,6 @@ body {
   .img {
     display: flex;
     flex-wrap: wrap; }
-  .foto {
-    height: 40%;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    margin: 10px; }
   .ajuste-video {
     width: 50%;
     height: 75; }
@@ -414,9 +411,11 @@ body {
     align-items: center;
     font-size: 15px;
     border: 3px solid red; }
+  .foto {
+    width: auto; }
   .ajuste-video {
-    width: 70%;
-    height: 50%; }
+    width: 100%;
+    height: 100%; }
   .frase {
     font-size: 20px;
     display: flex;
@@ -450,4 +449,7 @@ body {
     justify-content: center;
     font-size: 20px; }
   .input__txtarea {
-    width: 100%; } }
+    width: 100%; }
+  .grid-loc {
+    overflow: hidden;
+    margin: 5px 15px 5px 15px; } }
