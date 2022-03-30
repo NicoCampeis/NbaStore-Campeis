@@ -193,8 +193,6 @@ body {
       grid-area: "b-5"; }
     .grid-accesorios .grid__acc .grid__acc--6 {
       grid-area: "b-6"; }
-    .grid-accesorios .grid__acc .tshirt {
-      grid-area: "t-1"; }
     .grid-accesorios .grid__acc .grid__acc--8 {
       grid-area: "r-7"; }
     .grid-accesorios .grid__acc .grid__acc--9 {
@@ -207,8 +205,6 @@ body {
       grid-area: "r-11"; }
     .grid-accesorios .grid__acc .grid__acc--13 {
       grid-area: "r-12"; }
-    .grid-accesorios .grid__acc .caps {
-      grid-area: "c-1"; }
     .grid-accesorios .grid__acc .grid__acc--16 {
       grid-area: "g-13"; }
     .grid-accesorios .grid__acc .grid__acc--17 {
@@ -221,8 +217,6 @@ body {
       grid-area: "g-17"; }
     .grid-accesorios .grid__acc .grid__acc--21 {
       grid-area: "g-18"; }
-    .grid-accesorios .grid__acc .backbags {
-      grid-area: "bb-1"; }
     .grid-accesorios .grid__acc .grid__acc--22 {
       grid-area: "m-19"; }
     .grid-accesorios .grid__acc .grid__acc--23 {
